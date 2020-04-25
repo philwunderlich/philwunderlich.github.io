@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="learning-goals" class="slide level1">
+<h1>Learning Goals</h1>
+<ol type="1">
+<li>visualizing distributions of one variable
+<ol start="2" type="1">
+<li>histograms</li>
+<li>box plots</li>
+</ol></li>
+<li>visualizing relationships between two variables
+<ol start="5" type="1">
+<li>box plots by group</li>
+<li>scatter plots</li>
+</ol></li>
+</ol>
+<h2 id="module-5.1">Module 5.1</h2>
+<ul>
+<li>Univariate Plots
+<ul>
+<li>Histograms
+<ul>
+<li>density, frequency, bin width</li>
+<li>Drawing vertical lines for mean, median etc.</li>
+</ul></li>
+<li>twoway plots: histogram || kdensity</li>
+<li>Exporting to files</li>
+<li>Box Plots
+<ul>
+<li>What do the boxes tell us? (Median vs. mean)</li>
+<li>Illustration of outliers in the case of income</li>
+</ul></li>
+</ul></li>
+<li>Task</li>
+<li>Reference from textbook</li>
+</ul>
+<h2 id="module-5.2">Module 5.2</h2>
+<ul>
+<li>Bivariate Plots
+<ul>
+<li>Box Plots over groups</li>
+<li>Bar plots over groups</li>
+<li>Scatter Plots
+<ul>
+<li>Jitter to prevent overplotting</li>
+</ul></li>
+<li>Twoway Plots
+<ul>
+<li>kdensity.</li>
+<li>Lowess Smoother</li>
+</ul></li>
+</ul></li>
+<li>Task</li>
+<li>Reference from textbook</li>
+</ul>
+</section>
+<section id="learning-module-5.1-univariate-graphs" class="slide level1">
+<h1>Learning Module 5.1: Univariate Graphs</h1>
+<h2 id="histograms">Histograms</h2>
+<ul>
+<li>Histograms give us a very intuitive overview over the distribution of values.</li>
+<li>In STATA, histograms plot the density (y-axis) of a specific value or range of values (x-axis). This tells us which proportion of all observations lie within this range of values.</li>
+</ul>
+<h3 id="example">Example</h3>
+<p>using the <code>histogram</code> command, we can create a simple histogram. (short: <code>hist</code>)</p>
+<pre><code>hist age</code></pre>
+<h3 id="density-vs.-frequency">Density vs. Frequency</h3>
+<ul>
+<li>by default, STATA plots density histograms, meaning that all columns would add up to a total of 1.0.</li>
+<li>We can also ask STATA to use absolute frequencies (numbers of observations per bin).</li>
+</ul>
+<pre><code>hist r_age, frequency</code></pre>
+<h3 id="bin-width">bin-width</h3>
+<p>Please note, that STATA choses the number of &quot;bins&quot; or columns automatically. The property &quot;width=2.2&quot; in the output above means that each bin represents 2.2 years. <code>start</code> tells us the value of the first bin. If needed, we can change this behavior.</p>
+<ul>
+<li>the option <code>discrete</code> tells STATA to create one bin per category (here: year)</li>
+<li>the option <code>bin()</code> allows us to specify the number of bins ourselves.</li>
+<li>In the same way, we may change width or start</li>
+<li>with <code>width()</code> we may specify the range covered by one bin</li>
+</ul>
+<p>%codecell hist r_age, discrete</p>
+<p>%codecell hist r_age, bin(10) hist r_age, width(5)</p>
+<h3 id="vertical-lines">vertical lines</h3>
+<ul>
+<li>using xline, we can add vertical lines to our plots.</li>
+<li>for example, we can use <code>summarize</code>to plot the mean of our variable.</li>
+</ul>
+<p>%codecell *** Adding a vertical mean line *** summarize r_age // get the mean local r_age_mean = r(mean) // save the mean to a local macro hist r_age, xline(`r_age_mean') // draw the graph</p>
+<h2 id="twoway-plots">Twoway Plots</h2>
+<ul>
+<li>Stata offers the possibility to add multiple plots to one coordinate system.</li>
+<li>After the command <code>graph twoway</code> two plots can be specified in parentheses %codecell *** plotting a twoway plot (histogram and kernel density) *** graph twoway (histogram r_age, discrete) (kdensity r_age)</li>
+</ul>
+<h2 id="exporting-graphs">Exporting Graphs</h2>
+<p>% We can export graphs for further usage (saved in the working directory): % <code>graph export &quot;graph_name.png&quot;, replace</code> %markdown ## Box Plots % - A box plot is another way to display a distribution. - the central horizontal line in the center of the box marks the <em>median</em>. - As mentioned before, the median is a measure of central tendency that is more robust to outliers compared to the mean - the bottom of the box represents the 25quantile and the top of the box the 75quantile. - 50of all cases lie within the range of the box. - These middle 50are the <em>Inter Quartile Range</em> (IQR) - The &quot;whiskers&quot; indicate the minimum or maximum (up to 1.5 * IQR) - extreme outliers are indicated by dots.</p>
+<h3 id="example-box-plot-for-the-age-of-respondents">Example: Box Plot for the Age of Respondents</h3>
+<p>%codecell graph box income if income&lt;10000, aspectratio(2) scheme(s2mono)</p>
+</section>
+<section id="task-5.1" class="slide level1">
+<h1>Task 5.1</h1>
+<h2 id="histograms-1">histograms</h2>
+<h2 id="twoway">twoway</h2>
+<h2 id="box-plot">box plot</h2>
+<h2 id="export-graph">export graph</h2>
+</section>
+<section id="learning-module-5.2-bivariate-plots" class="slide level1">
+<h1>Learning Module 5.2 Bivariate Plots</h1>
+<h2 id="the-by-and-over-options">the <code>by</code> and <code>over</code> options</h2>
+<ul>
+<li>using the <code>by</code> option, we can compare histograms or box plots across groups. %codecell *** drawing a histogram by sex *** hist r_age, by(female)</li>
+</ul>
+<p>%codecell *** drawing a box plot over sex *** graph box r_age, over(female)</p>
+<p>%codecell *** generating a dummy varible for respondents older than 25 **<em> capture drop old gen old=. replace old=1 if r_age &gt; 25 replace old=0 if r_age &lt;= 25 </em> creating labels lab var old &quot;respondents older than 25&quot; lab def old_lab 1&quot;yes&quot; 0&quot;no&quot; lab val old old_lab</p>
+<p>*** drawing the bar graph over sex and over &quot;old&quot; *** graph bar (mean) income, over(female) over(old)</p>
+</section>
+    </div>
+  </div>
+
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>
