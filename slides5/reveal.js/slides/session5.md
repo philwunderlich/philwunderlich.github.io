@@ -44,6 +44,8 @@
 
 - Histograms give us a very intuitive overview over the distribution of values.
 
+$7 + 8 =$
+
 ----
 
 <video controls>
