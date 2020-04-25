@@ -62,10 +62,15 @@ $7 + 8 =$
 
 ### Example
 
-using the `histogram` command, we can create a simple histogram. (short: `hist`)
+using the `histogram` command, we can create a simple histogram. (short: ` hist`)
 
+```stata
+histogram age
 ```
-hist age
+```
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+       hhinc |      2,608    2732.761    2527.943          0      80400
 ```
 
 ---
@@ -74,13 +79,16 @@ hist age
 - by default, STATA plots density histograms, meaning that all columns would add up to a total of 1.0.
 - We can also ask STATA to use absolute frequencies (numbers of observations per bin).
 
----
+----
 
-```
+```stata
 hist r_age, frequency
 ```
 
-![](slides/output_2_16.svg)
+![](slides/output_2_16.svg) <!-- .element: width="500" -->
+![](slides/output_2_16.svg) <!-- .element: width="500" -->
+
+---
 
 ### bin-width
 Please note, that STATA choses the number of "bins" or columns automatically. The property "width=2.2" in the output above means that each bin represents 2.2 years. `start` tells us the value of the first bin.
@@ -91,22 +99,34 @@ If needed, we can change this behavior.
 - In the same way, we may change width or start
 - with `width()` we may specify the range covered by one bin
 
-%codecell
-hist r_age, discrete
+----
 
-%codecell
+```stata
+hist r_age, discrete
+```
+----
+
+```stata
 hist r_age, bin(10)
 hist r_age, width(5)
+```
+
+---
 
 ### vertical lines
 - using xline, we can add vertical lines to our plots.
 - for example, we can use `summarize`to plot the mean of our variable.
 
-%codecell
+----
+
+```stata
 *** Adding a vertical mean line ***
 summarize r_age // get the mean
 local r_age_mean = r(mean) // save the mean to a local macro
 hist r_age, xline(`r_age_mean') // draw the graph
+```
+
+---
 
 ## Twoway Plots
 
