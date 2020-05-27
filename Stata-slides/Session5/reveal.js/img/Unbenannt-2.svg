@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 760 510" style="enable-background:new 0 0 760 510;" xml:space="preserve">
+   <title>example_boxplot</title>
+   <g>
+     <rect id="rect10" x="0.5" y="73.41" width="372.02" height="436.18" style="fill: #eaf2f3;stroke: #eaf2f3"/>
+     <rect id="rect12" x="59.64" y="88.66" width="289.62" height="401.15" style="fill: #fff;stroke: #fff"/>
+     <line id="line14" x1="59.76" y1="474.45" x2="350.3" y2="474.45" style="fill: none;stroke: #eaf2f3"/>
+     <line id="line16" x1="59.76" y1="400.35" x2="350.3" y2="400.35" style="fill: none;stroke: #eaf2f3"/>
+     <line id="line18" x1="59.76" y1="326.27" x2="350.3" y2="326.27" style="fill: none;stroke: #eaf2f3"/>
+     <line id="line20" x1="59.76" y1="252.19" x2="350.3" y2="252.19" style="fill: none;stroke: #eaf2f3"/>
+     <line id="line22" x1="59.76" y1="178.1" x2="350.3" y2="178.1" style="fill: none;stroke: #eaf2f3"/>
+     <line id="line24" x1="59.76" y1="104.02" x2="350.3" y2="104.02" style="fill: none;stroke: #eaf2f3"/>
+     <rect id="rect26" x="107.03" y="344.83" width="194.86" height="74.12" style="fill: #8da3b7;stroke: #1a476f"/>
+     <line id="line28" x1="107.03" y1="385.58" x2="301.88" y2="385.58" style="fill: none;stroke: #1a476f"/>
+     <line id="line30" x1="204.45" y1="418.95" x2="204.45" y2="474.55" style="fill: none;stroke: #1a476f"/>
+     <line id="line32" x1="204.45" y1="344.83" x2="204.45" y2="233.63" style="fill: none;stroke: #1a476f"/>
+     <line id="line34" x1="139.18" y1="474.55" x2="269.73" y2="474.55" style="fill: none;stroke: #1a476f"/>
+     <line id="line36" x1="139.18" y1="233.63" x2="269.73" y2="233.63" style="fill: none;stroke: #1a476f"/>
+     <ellipse id="circle38" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle40" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle42" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle44" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle46" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle48" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle50" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle52" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle54" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle56" cx="204.45" cy="233.63" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle58" cx="204.45" cy="226.23" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle60" cx="204.45" cy="226.23" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle62" cx="204.45" cy="222.52" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle64" cx="204.45" cy="222.52" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle66" cx="204.45" cy="222.52" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle68" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle70" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle72" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle74" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle76" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle78" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle80" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle82" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle84" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle86" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle88" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle90" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle92" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle94" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle96" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle98" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle100" cx="204.45" cy="215.09" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle102" cx="204.45" cy="211.4" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle104" cx="204.45" cy="211.4" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle106" cx="204.45" cy="203.98" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle108" cx="204.45" cy="200.29" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle110" cx="204.45" cy="196.57" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle112" cx="204.45" cy="196.57" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle114" cx="204.45" cy="196.57" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle116" cx="204.45" cy="196.57" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle118" cx="204.45" cy="196.57" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle120" cx="204.45" cy="196.57" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle122" cx="204.45" cy="196.57" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle124" cx="204.45" cy="196.57" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle126" cx="204.45" cy="188.42" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle128" cx="204.45" cy="181.75" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle130" cx="204.45" cy="178.04" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle132" cx="204.45" cy="178.04" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle134" cx="204.45" cy="178.04" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle136" cx="204.45" cy="178.04" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle138" cx="204.45" cy="178.04" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle140" cx="204.45" cy="178.04" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle142" cx="204.45" cy="178.04" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle144" cx="204.45" cy="178.04" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle146" cx="204.45" cy="163.21" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle148" cx="204.45" cy="140.98" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle150" cx="204.45" cy="131.71" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle152" cx="204.45" cy="122.46" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle154" cx="204.45" cy="122.46" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle156" cx="204.45" cy="103.92" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle158" cx="204.45" cy="103.92" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle160" cx="204.45" cy="103.92" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle162" cx="204.45" cy="103.92" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle164" cx="204.45" cy="103.92" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle166" cx="204.45" cy="103.92" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <ellipse id="circle168" cx="204.45" cy="103.92" rx="1.84" ry="3.34" style="fill: #1a476f;stroke: #1a476f"/>
+     <line id="line170" x1="59.76" y1="489.7" x2="59.76" y2="88.77" style="fill: none;stroke: #000"/>
+     <line id="line172" x1="59.76" y1="474.45" x2="53.7" y2="474.45" style="fill: none;stroke: #000"/>
+     <text transform="translate(46.12 478.66) rotate(-90)" style="isolation: isolate;font-size: 15.137373924255371px;font-family: Helvetica, Helvetica">0</text>
+     <line id="line176" x1="59.76" y1="400.35" x2="53.7" y2="400.35" style="fill: none;stroke: #000"/>
+     <text transform="translate(46.12 419.29) rotate(-90)" style="isolation: isolate;font-size: 15.137373924255371px;font-family: Helvetica, Helvetica">2,000</text>
+     <line id="line180" x1="59.76" y1="326.27" x2="53.7" y2="326.27" style="fill: none;stroke: #000"/>
+     <text transform="translate(46.12 345.21) rotate(-90)" style="isolation: isolate;font-size: 15.137373924255371px;font-family: Helvetica, Helvetica">4,000</text>
+     <line id="line184" x1="59.76" y1="252.19" x2="53.7" y2="252.19" style="fill: none;stroke: #000"/>
+     <text transform="translate(46.12 271.13) rotate(-90)" style="isolation: isolate;font-size: 15.137373924255371px;font-family: Helvetica, Helvetica">6,000</text>
+     <line id="line188" x1="59.76" y1="178.1" x2="53.7" y2="178.1" style="fill: none;stroke: #000"/>
+     <text transform="translate(46.12 197.04) rotate(-90)" style="isolation: isolate;font-size: 15.137373924255371px;font-family: Helvetica, Helvetica">8,000</text>
+     <line id="line192" x1="59.76" y1="104.02" x2="53.7" y2="104.02" style="fill: none;stroke: #000"/>
+     <text transform="translate(46.12 127.17) rotate(-90)" style="isolation: isolate;font-size: 15.137373924255371px;font-family: Helvetica, Helvetica">10,000</text>
+     <text transform="translate(29.46 351.92) rotate(-90)" style="isolation: isolate;font-size: 15.137373924255371px;font-family: Helvetica, Helvetica">Household income</text>
+     <line id="line198" x1="59.76" y1="489.7" x2="349.72" y2="489.7" style="fill: none;stroke: #000"/>
+   </g>
+   <path transform="translate(0.26 73.5)" style="fill: none"/>
+   <path id="path214" d="M216.21,104.1" transform="translate(0.26 73.5)" style="stroke: #000"/>
+   <path transform="translate(0.26 73.5)" style="fill: none"/>
+   <path id="path214-7" d="M301.62,271.33" transform="translate(0.26 73.5)" style="stroke: #000"/>
+   <path transform="translate(0.26 73.5)" style="fill: none"/>
+   <path id="path1440" d="M269.47,160.13" transform="translate(0.26 73.5)" style="stroke: #000"/>
+   <line x1="448.59" y1="0.5" x2="449.26" y2="0.5" style="fill: none;stroke: #000"/>
+   <g>
+     <g>
+       <line x1="222.59" y1="161.89" x2="466.45" y2="135.05" style="fill: none;stroke: #e73c16;stroke-width: 2px"/>
+       <path d="M210.33,89.71c5.88,1.47,13.28,4.27,18,7.58l-4.46-9.08,2.38-9.82C222.36,82.65,215.75,87,210.33,89.71Z" transform="translate(0.26 73.5)" style="fill: #e73c16"/>
+     </g>
+     <text transform="translate(475.26 140.98)" style="font-size: 22px;font-family: MyriadPro-Regular, Myriad Pro"><tspan style="letter-spacing: 0.0029740767045454545em">O</tspan><tspan x="15.22" y="0">utliers</tspan></text>
+   </g>
+   <g>
+     <g>
+       <line x1="288.17" y1="230.4" x2="466.45" y2="188.42" style="fill: none;stroke: #e73c16;stroke-width: 2px"/>
+       <path d="M276.16,159.66c6,.75,13.7,2.64,18.82,5.35l-5.53-8.47,1.17-10C287.24,151.2,281.21,156.31,276.16,159.66Z" transform="translate(0.26 73.5)" style="fill: #e73c16"/>
+     </g>
+     <text transform="translate(475.26 193.24)" style="font-size: 22px;font-family: MyriadPro-Regular, Myriad Pro"><tspan style="letter-spacing: 0.005992542613636364em">Maximum </tspan></tspan><tspan x="0" y="26.4">(highest value within</tspan><tspan x="0" y="52.8">1,5 IQR from 75% quantile)</tspan></text>
+   </g>
+   <g>
+     <g>
+       <line x1="320.54" y1="340.28" x2="466.45" y2="280.86" style="fill: none;stroke: #e73c16;stroke-width: 2px"/>
+       <path d="M309.11,271.33c6.05-.19,13.93.48,19.42,2.36l-6.78-7.51-.4-10.1C318.74,261.25,313.57,267.24,309.11,271.33Z" transform="translate(0.26 73.5)" style="fill: #e73c16"/>
+     </g>
+     <text transform="translate(475.26 289.23)" style="font-size: 22px;font-family: MyriadPro-Regular, Myriad Pro">75% qua<tspan x="79.77" y="0" style="letter-spacing: -0.003995028409090909em">n</tspan><tspan x="91.89" y="0" style="letter-spacing: -0.00004438920454545455em">tile</tspan></text>
+   </g>
+   <g>
+     <g>
+       <line x1="321.38" y1="382.55" x2="466.45" y2="344.83" style="fill: none;stroke: #e73c16;stroke-width: 2px"/>
+       <path d="M309.43,312.08c6,.62,13.76,2.32,18.94,4.91l-5.72-8.34.94-10.07C320.32,303.36,314.4,308.62,309.43,312.08Z" transform="translate(0.26 73.5)" style="fill: #e73c16"/>
+     </g>
+     <text transform="translate(475.26 352.59)" style="font-size: 22px;font-family: MyriadPro-Regular, Myriad Pro">Median (50% qua<tspan x="160.42" y="0" style="letter-spacing: -0.004039417613636364em">n</tspan><tspan x="172.54" y="0">tile)</tspan></text>
+   </g>
+   <g>
+     <g>
+       <line x1="325.98" y1="415.13" x2="466.45" y2="406.98" style="fill: none;stroke: #e73c16;stroke-width: 2px"/>
+       <path d="M313.67,342.33c5.79,1.78,13,5,17.61,8.51l-4-9.3,2.88-9.69C326,335.9,319.21,339.9,313.67,342.33Z" transform="translate(0.26 73.5)" style="fill: #e73c16"/>
+     </g>
+     <text transform="translate(475.26 415.96)" style="font-size: 22px">25% quantile</tspan></text>
+   </g>
+   <g>
+     <g>
+       <line x1="291.03" y1="474.45" x2="466.45" y2="474.45" style="fill: none;stroke: #e73c16;stroke-width: 2px"/>
+       <path d="M278.7,401c5.68,2.1,12.73,5.7,17.1,9.51L292.35,401l3.45-9.51C291.43,395.25,284.38,398.84,278.7,401Z" transform="translate(0.26 73.5)" style="fill: #e73c16"/>
+     </g>
+     <text transform="translate(475.26 478.66)" style="font-size: 22px"><tspan x="17.95" y="0">Minimum (see Maximum)</tspan></text>
+   </g>
+</svg>
