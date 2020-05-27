@@ -1,3 +1,15 @@
+
+
+# Session 5: </br> Basic Plots
+
+## Data Analysis using Stata
+
+7.5.19
+
+
+
+---
+
 # Learning Goals
 
 1. visualizing distributions of one variable
@@ -20,9 +32,9 @@
     - Box Plots <!-- .element: class="fragment fade-left" data-fragment-index="1" -->
         - What do the boxes tell us? (Median vs. mean)
         - Illustration of outliers in the case of income <!-- .element: class="fragment highlight-blue" data-fragment-index="2" -->
-<!-- .slide: data-background="#317333" -->
+<!-- .slide: data-background="" -->
 
-----
+---
 
 ## Module 5.2
 - Bivariate Plots
@@ -33,32 +45,31 @@
     - Twoway Plots
         - kdensity.
         - Lowess Smoother
+    - skew and Kurtosis
 
 ---
 
-# Learning Module 5.1: Univariate Graphs
+# Module 5.1: <br> Univariate Graphs
 
-----
+---
 
 ## Histograms
 
 - Histograms give us a very intuitive overview over the distribution of values.
 
-$7 + 8 =$
+---
 
-----
-
-<video controls>
+<video controls height="600">
     <source src="slides/output.ogv" type="video/ogg">
     <source src="slides/output.webm" type="video/webm">
 </video>
 
-----
+---
 
 
 - In STATA, histograms plot the density (y-axis) of a specific value or range of values (x-axis). This tells us which proportion of all observations lie within this range of values.
 
-----
+---
 
 ### Example
 
@@ -79,45 +90,55 @@ histogram age
 - by default, STATA plots density histograms, meaning that all columns would add up to a total of 1.0.
 - We can also ask STATA to use absolute frequencies (numbers of observations per bin).
 
-----
+---
 
 ```stata
-hist r_age, frequency
+hist age, frequency
 ```
 
-![](slides/output_2_16.svg) <!-- .element: width="500" -->
+![](img/hist_age.svg) <!-- .element: width="500" -->
 ![](slides/output_2_16.svg) <!-- .element: width="500" -->
 
 ---
 
 ### bin-width
-Please note, that STATA choses the number of "bins" or columns automatically. The property "width=2.2" in the output above means that each bin represents 2.2 years. `start` tells us the value of the first bin.
+- STATA choses the number of "bins" or columns automatically. The property "width=2.2" in the output above means that each bin represents 2.2 years. `start` tells us the value of the first bin.
 If needed, we can change this behavior.
+
+---
 
 - the option `discrete` tells STATA to create one bin per category (here: year)
 - the option `bin()` allows us to specify the number of bins ourselves.
 - In the same way, we may change width or start
 - with `width()` we may specify the range covered by one bin
 
-----
+---
 
 ```stata
-hist r_age, discrete
+hist age, discrete
 ```
-----
-
-```stata
-hist r_age, bin(10)
-hist r_age, width(5)
-```
+![](img/hist_age_discrete.svg)
 
 ---
 
-### vertical lines
-- using xline, we can add vertical lines to our plots.
-- for example, we can use `summarize`to plot the mean of our variable.
+```stata
+hist age, bin(10)
+```
+![bins](img/hist_age_bins.svg)
 
-----
+---
+
+```stata
+hist age, width(5)
+```
+![widths](img/hist_age_width.svg)
+
+---
+
+### Vertical Lines
+- using xline, we can add vertical lines to our plots.
+- for example, we can use `summarize` to plot the mean of our variable.
+
 
 ```stata
 *** Adding a vertical mean line ***
@@ -128,22 +149,34 @@ hist r_age, xline(`r_age_mean') // draw the graph
 
 ---
 
+## Skew and Kurtosis
+
+---
+
 ## Twoway Plots
 
 - Stata offers the possibility to add multiple plots to one coordinate system.
 - After the command `graph twoway` two plots can be specified in parentheses
-%codecell
+
+```stata
 *** plotting a twoway plot (histogram and kernel density) ***
 graph twoway (histogram r_age, discrete) (kdensity r_age)
+```
+
+---
 
 ## Exporting Graphs
-%
+
 We can export graphs for further usage (saved in the working directory):
-%
-`graph export "graph_name.png", replace`
-%markdown
- ## Box Plots
-%
+
+```stata
+graph export "graph_name.png", replace
+```
+
+---
+
+## Box Plots
+
 - A box plot is another way to display a distribution.
 - the central horizontal line in the center of the box marks the _median_.
   - As mentioned before, the median is a measure of central tendency that is more robust to outliers compared to the mean
@@ -155,8 +188,9 @@ We can export graphs for further usage (saved in the working directory):
 
 ### Example: Box Plot for the Age of Respondents
 
-%codecell
+```stata
 graph box income if income<10000, aspectratio(2) scheme(s2mono)
+```
 
 ---
 
@@ -177,17 +211,22 @@ graph box income if income<10000, aspectratio(2) scheme(s2mono)
 ## the `by` and `over` options
 
 - using the `by` option, we can compare histograms or box plots across groups.
-%codecell
+
+```stata
 *** drawing a histogram by sex ***
 hist r_age, by(female)
+```
 
+---
 
-%codecell
+```stata
 *** drawing a box plot over sex ***
 graph box r_age, over(female)
+```
 
+---
 
-%codecell
+```stata
 *** generating a dummy varible for respondents older than 25 ***
 capture drop old
 gen old=.
@@ -197,10 +236,18 @@ replace old=0 if r_age <= 25
 lab var old "respondents older than 25"
 lab def old_lab 1"yes" 0"no"
 lab val old old_lab
+```
 
+
+---
+
+```stata
 *** drawing the bar graph over sex and over "old" ***
 graph bar (mean) income, over(female) over(old)
+```
 
+---
 
-graph editor:
+## graph editor
+
 https://www.youtube.com/watch?v=17opC4fDeME
