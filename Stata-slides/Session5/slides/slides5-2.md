@@ -123,8 +123,8 @@ https://www.youtube.com/watch?v=17opC4fDeME
 You may continue using your do-file from LM 5.1.
 
 ---
-1. Create a twoway plot that combines the kernel density plot and the histogram of household income.
-    - restrict the plot to household incomes under 40.000€
+1. Create a twoway plot that combines the kernel density plot and the histogram of income.
+    - restrict the plot to incomes under 15.000€
 2. Save your plot to memory or disk and create an additional box plot of the same distribution. Save this one to memory or disk as well.
 3. Combine both plots to one graph with 2 rows.
 4. Export the result as a vector graphic (e.g. svg)
