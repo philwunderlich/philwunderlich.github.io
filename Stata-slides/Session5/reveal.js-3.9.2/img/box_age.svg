@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This is a Stata generated SVG file (http://www.stata.com) -->
+
+<svg version="1.1" width="5.50in" height="4.00in" viewBox="0 0 3960 2880" xmlns="http://www.w3.org/2000/svg">
+	<rect x="0.00" y="0.00" width="3959.88" height="2880.00" style="fill:#EAF2F3;stroke:#EAF2F3;stroke-width:5.76"/>
+	<rect x="390.68" y="100.86" width="3468.34" height="2648.46" style="fill:#FFFFFF;stroke:#FFFFFF;stroke-width:5.76"/>
+	<line x1="390.68" y1="2588.81" x2="3859.02" y2="2588.81" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.68" y1="1992.07" x2="3859.02" y2="1992.07" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.68" y1="1395.20" x2="3859.02" y2="1395.20" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.68" y1="798.46" x2="3859.02" y2="798.46" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.68" y1="201.72" x2="3859.02" y2="201.72" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<rect x="958.20" y="1335.55" width="2333.31" height="805.64" style="fill:#8DA3B7;stroke:#1A476F;stroke-width:8.64"/>
+	<line x1="958.20" y1="1693.57" x2="3291.50" y2="1693.57" style="stroke:#1A476F;stroke-width:8.64"/>
+	<line x1="2124.91" y1="2141.19" x2="2124.91" y2="2648.46" style="stroke:#1A476F;stroke-width:8.64"/>
+	<line x1="2124.91" y1="1335.55" x2="2124.91" y2="470.26" style="stroke:#1A476F;stroke-width:8.64"/>
+	<line x1="1343.18" y1="2648.46" x2="2906.52" y2="2648.46" style="stroke:#1A476F;stroke-width:8.64"/>
+	<line x1="1343.18" y1="470.26" x2="2906.52" y2="470.26" style="stroke:#1A476F;stroke-width:8.64"/>
+	<line x1="390.68" y1="2749.32" x2="390.68" y2="100.86" style="stroke:#000000;stroke-width:5.76"/>
+	<line x1="390.68" y1="2588.81" x2="350.71" y2="2588.81" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="2588.81" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,2588.81)" text-anchor="middle">20</text>
+	<line x1="390.68" y1="1992.07" x2="350.71" y2="1992.07" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="1992.07" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,1992.07)" text-anchor="middle">40</text>
+	<line x1="390.68" y1="1395.20" x2="350.71" y2="1395.20" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="1395.20" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,1395.20)" text-anchor="middle">60</text>
+	<line x1="390.68" y1="798.46" x2="350.71" y2="798.46" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="798.46" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,798.46)" text-anchor="middle">80</text>
+	<line x1="390.68" y1="201.72" x2="350.71" y2="201.72" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="201.72" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,201.72)" text-anchor="middle">100</text>
+	<text x="190.71" y="1425.03" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 190.71,1425.03)" text-anchor="middle">Age of respondent</text>
+	<line x1="390.68" y1="2749.32" x2="3859.02" y2="2749.32" style="stroke:#000000;stroke-width:5.76"/>
+</svg>

@@ -1,0 +1,75 @@
+
+/* Custom Fonts */
+@import url(../lib/font/roboto-v20-latin/roboto-v20-latin.css);
+
+.reveal{
+    font-family: "Roboto", sans-serif;
+    /* font-size: 42px;
+    font-weight: normal; */
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    /* margin: 0 0 20px 0; */
+    /* color: #fff; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    /* text-align: center; */
+    /*line-height: 1.2;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-shadow: none;
+    word-wrap: break-word; */
+}
+
+/*******************/
+/* Make two column layout possible */
+
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+
+/*******************/
+/* left align text (all) */
+.reveal .slides > section { text-align:left; }
+
+/* center align images*/
+/* .reveal .slides > section img,
+.reveal .slides > section svg,
+.reveal .slides video {
+    display: block;
+    margin: 0 auto;
+} */
+
+/* left align code */
+
+.reveal .slides > section pre {width:auto}
+
+
+/* grow span elements */
+.reveal .slides section span.fragment.grow.visible {
+  font-weight: bold;
+  font-size: 130%;
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* bold span elements */
+.reveal .slides section .fragment.bold {
+opacity: 1;
+visibility: inherit;
+}
+
+.reveal .slides section .fragment.bold.visible {
+  font-weight: bold;
+  /* font-size: 130%; */
+  -webkit-transform: none;
+  transform: none;
+}

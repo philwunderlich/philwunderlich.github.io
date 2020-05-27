@@ -74,15 +74,12 @@
 					toggleNotesButton: { left: "90px", bottom: "30px", top: "auto", right: "auto" }
 				},
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/reveal_js-menu/menu.js' },
 					{ src: 'plugin/chalkboard/chalkboard.js' },
 					{ src: 'plugin/mathsvg/math.js', async: true },
-					{ src: 'socket.io/socket.io.js', async: true },
-					{ src: 'plugin/notes-server/client.js', async: true },
 				],
 				keyboard: {
 					67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
