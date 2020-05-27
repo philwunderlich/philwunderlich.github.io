@@ -29,7 +29,7 @@ graph box continuous_var, over(categorical_var)
 
 ## Bar Plots across groups
 
-- Bar plots can be used to compare means of a categorical variable across groups.
+- Bar plots can be used to compare means of a continuous variable across groups.
 - They can also be used to assess relationships between two categorical variables.
 
 ```stata
