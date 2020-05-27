@@ -220,6 +220,8 @@ hist age, width(5)
 
 <!-- TODO move to STATA for this example! -->
 
+Note:
+
 ```stata
 *** Adding a vertical mean line ***
 summarize age // get the mean
@@ -239,12 +241,13 @@ hist age, xline(`age_mean') // draw the graph
 ```
 <!-- .element: class="fragment" -->
 
-Note:
 - `return list` to display all stored stats.
+
+![](img/hist_meanline.svg)<!-- .element: width="650" -->
 
 ----
 
-![](img/hist_meanline.svg)<!-- .element: width="650" -->
+#### Example: Histogram with mean line
 
 ---
 
@@ -278,7 +281,7 @@ Note:
 ```stata
 hist age, normal
 ```
-
+![Histogram normal distributions](img/hist_normal.svg)<!-- .element: class="" width="650" -->
 
 ----
 
@@ -1211,6 +1214,10 @@ graph box age
 ![](img/box_age.svg)<!-- .element: width="650" class="fragment"-->
 
 
+----
+
+#### Example: Box Plot and Outliers
+
 ---
 
 
@@ -1251,6 +1258,6 @@ Please open a do file and prepare the following variables: Household Income, Gen
     - Add a line for the median. How does the median behave as compared to the mean?
 3. Create a box plot that illustrates the distribution of the household income.
     - Try to make an informed decision where to cut off the box plot to keep outliers but exclude extreme outliers that distort the graphical representation.
-4. Draw a Bar plot for all categories of the employment status.
+4. Draw a bar plot for all categories of the employment status.
 
 (Remark: Excluding outliers from a graphic is a measure that should be used with care, as pointed out before !</div>
