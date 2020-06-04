@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This is a Stata 15.1 generated SVG file (http://www.stata.com) -->
+
+<svg version="1.1" width="5.50in" height="4.00in" viewBox="0 0 3960 2880" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>Stata Graph - Graph</desc>
+	<rect x="0" y="0" width="3960" height="2880" style="fill:#EAF2F3;stroke:none"/>
+	<rect x="0.00" y="0.00" width="3959.88" height="2880.00" style="fill:#EAF2F3"/>
+	<rect x="2.88" y="2.88" width="3954.12" height="2874.24" style="fill:none;stroke:#EAF2F3;stroke-width:5.76"/>
+	<rect x="390.80" y="100.86" width="3468.22" height="2518.39" style="fill:#FFFFFF"/>
+	<rect x="393.68" y="103.74" width="3462.46" height="2512.63" style="fill:none;stroke:#FFFFFF;stroke-width:5.76"/>
+	<line x1="390.80" y1="2619.25" x2="3859.02" y2="2619.25" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="2014.84" x2="3859.02" y2="2014.84" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="1410.42" x2="3859.02" y2="1410.42" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="806.01" x2="3859.02" y2="806.01" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="201.60" x2="3859.02" y2="201.60" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<rect x="704.38" y="402.70" width="1064.13" height="2216.56" style="fill:#1A476F"/>
+	<rect x="707.26" y="405.57" width="1058.37" height="2210.80" style="fill:none;stroke:#1A476F;stroke-width:5.76"/>
+	<rect x="2481.43" y="1349.66" width="1064.00" height="1269.59" style="fill:#1A476F"/>
+	<rect x="2484.31" y="1352.54" width="1058.24" height="1263.83" style="fill:none;stroke:#1A476F;stroke-width:5.76"/>
+	<line x1="390.80" y1="2619.25" x2="390.80" y2="100.86" style="stroke:#000000;stroke-width:5.76"/>
+	<line x1="390.80" y1="2619.25" x2="350.83" y2="2619.25" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="2619.25" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,2619.25)" text-anchor="middle">0</text>
+	<line x1="390.80" y1="2014.84" x2="350.83" y2="2014.84" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="2014.84" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,2014.84)" text-anchor="middle">500</text>
+	<line x1="390.80" y1="1410.42" x2="350.83" y2="1410.42" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="1410.42" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,1410.42)" text-anchor="middle">1,000</text>
+	<line x1="390.80" y1="806.01" x2="350.83" y2="806.01" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="806.01" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,806.01)" text-anchor="middle">1,500</text>
+	<line x1="390.80" y1="201.60" x2="350.83" y2="201.60" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="201.60" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,201.60)" text-anchor="middle">2,000</text>
+	<text x="190.71" y="1360.06" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 190.71,1360.06)" text-anchor="middle">mean of income</text>
+	<line x1="390.80" y1="2619.25" x2="3859.02" y2="2619.25" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="1236.39" y="2729.16" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">Men</text>
+	<text x="3013.44" y="2729.16" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">Women</text>
+</svg>
