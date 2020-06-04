@@ -4,103 +4,55 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Data Analysis using Stata: Session 5</title>
+		<title>reveal.js</title>
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
 
-		<!-- custom css -->
-		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="dist/custom.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/xcode.css" id="highlight-theme">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown>
+				<section data-markdown data-background="var(--blue-bell)">
 					### Slides Session 6
 					#### Data Analysis Using Stata
 
-					[Learning Module 6.1](LM6-1.html)
+					[Learning Module 6.1](LM-6-1.html)
 
-					[Learning Module 6.2](LM6-2.html)
+					[Learning Module 6.2](LM-6-2.html)
 
-					[Learning Module 6.3](LM6-3.html)
+					[Learning Module 6.3](LM-6-3.html)
 				</section>
 			</div>
 		</div>
 
-		<script src="js/reveal.js"></script>
-
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script src="plugin/menu/menu.js"></script>
 		<script>
-
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
 			Reveal.initialize({
-				// Display the page number of the current slide
-				slideNumber: false,
 				hash: true,
-				// Global override for autoplaying embedded media (video/audio/iframe)
-				// - null: Media will only autoplay if data-autoplay is present
-				// - true: All media will autoplay, regardless of individual setting
-				// - false: No media will autoplay, regardless of individual setting
-				autoPlayMedia: null,
-				// ...
-
-				// The "normal" size of the presentation, aspect ratio will be preserved
-				// when the presentation is scaled to fit different resolutions. Can be
-				// specified using percentage units.
-				width: "1080",
-				height: "720",
-
-				// Factor of the display size that should remain empty around the content
-				// margin: 0.2,
-
-				// Bounds for smallest/largest possible scale to apply to content
-				// minScale: 0.2,
-				// maxScale: 2,
-
-				slideNumber: true,
-
-				chalkboard: {
-					toggleChalkboardButton: { left: "60px", bottom: "30px", top: "auto", right: "auto" },
-					toggleNotesButton: { left: "90px", bottom: "30px", top: "auto", right: "auto" }
-				},
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/reveal_js-menu/menu.js' },
-					{ src: 'plugin/chalkboard/chalkboard.js' },
-					{ src: 'plugin/mathsvg/math.js', async: true },
-					{ src: 'socket.io/socket.io.js', async: true },
-					{ src: 'plugin/notes-server/client.js', async: true },
-				],
-				keyboard: {
-					67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
-					66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
-					46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
-					 8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
-					68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
-					88: function() { RevealChalkboard.colorNext() },	// cycle colors forward when 'x' is pressed
-					89: function() { RevealChalkboard.colorPrev() },	// cycle colors backward when 'y' is pressed
-				},
+				math: {
+      	mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+      	config: 'TeX-AMS_HTML-full',
+      	// pass other options into `MathJax.Hub.Config()`
+      	TeX: { Macros: { RR: "{\\bf R}" } }
+    		},
+				dependencies: [ { src: 'plugin/menu/menu.js' } ],
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
 			});
-			Reveal.configure({ pdfSeparateFragments: false });
 		</script>
 	</body>
 </html>
