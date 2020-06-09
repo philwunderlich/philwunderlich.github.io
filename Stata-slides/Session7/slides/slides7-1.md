@@ -1,6 +1,5 @@
 <!-- .slide: data-background="#7dce82ff" -->
 
-#7dce82ff
 # SESSION 7: <br> DESCRIPTIVE INFERENCE&nbsp;2
 ## Data Analysis using Stata
 Summer 2020 | MA Sociology | FU Berlin
