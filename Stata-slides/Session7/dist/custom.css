@@ -84,6 +84,12 @@ visibility: inherit;
   transform: none;
 }
 
+#toggle-chalkboard {
+  margin-left: 30px;
+}
+#toggle-notes {
+  margin-left: 20px;
+}
 
 /* Delete image border */
 /* .reveal .slides section img {

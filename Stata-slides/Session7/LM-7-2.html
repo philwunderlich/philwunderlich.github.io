@@ -39,19 +39,31 @@
 			Reveal.initialize({
 				hash: true,
 				math: {
-      	mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
-      	config: 'TeX-AMS_HTML-full',
-      	// pass other options into `MathJax.Hub.Config()`
-      	TeX: { Macros: { RR: "{\\bf R}" } }
-    		},
-				dependencies: [ { src: 'plugin/menu/menu.js' } ],
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				dependencies: [
+					{ src: 'plugin/menu/menu.js' },
+					{ src: 'plugin/chalkboard/chalkboard.js'},
+				],
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+
+				keyboard: {
+								67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+								66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+								46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+								 8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+								68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+								88: function() { RevealChalkboard.colorNext() },	// cycle colors forward when 'x' is pressed
+								89: function() { RevealChalkboard.colorPrev() },	// cycle colors backward when 'y' is pressed
+									},
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ],
 			});
 			Reveal.configure({ pdfSeparateFragments: false,
 				// Transition style
-  			transition: 'none', // none/fade/slide/convex/concave/zoom
+				transition: 'none', // none/fade/slide/convex/concave/zoom
 			});
-		</script>
-	</body>
+		</script>	</body>
 </html>

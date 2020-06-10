@@ -6,6 +6,7 @@
 
 		<title>reveal.js</title>
 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
@@ -44,13 +45,26 @@
       	// pass other options into `MathJax.Hub.Config()`
       	TeX: { Macros: { RR: "{\\bf R}" } }
     		},
-				dependencies: [ { src: 'plugin/menu/menu.js' } ],
+				dependencies: [
+					{ src: 'plugin/menu/menu.js' },
+					{ src: 'plugin/chalkboard/chalkboard.js'},
+				],
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+
+				keyboard: {
+						    67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+						    66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+						    46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+						     8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+						    68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+						    88: function() { RevealChalkboard.colorNext() },	// cycle colors forward when 'x' is pressed
+						    89: function() { RevealChalkboard.colorPrev() },	// cycle colors backward when 'y' is pressed
+									},
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ],
 			});
 			Reveal.configure({ pdfSeparateFragments: false,
 				// Transition style
-  			transition: 'none', // none/fade/slide/convex/concave/zoom 
+  			transition: 'none', // none/fade/slide/convex/concave/zoom
 			});
 		</script>
 	</body>
