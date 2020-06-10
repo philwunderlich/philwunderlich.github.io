@@ -24,7 +24,7 @@ Summer 2020 | MA Sociology | FU Berlin
 
 ## Learning Module 7.1: $\chi^2$-test for categorical variables
 
-- <!-- .element class="fragment" -->Are to categorical variables independent?
+- <!-- .element class="fragment" -->Are two categorical variables independent?
 
 ---
 

@@ -73,8 +73,8 @@ $r=\frac{Cov(X,Y)}{s_xs_y}$ <!-- .element class="fragment" style="text-align:cen
  
 Interpretation:<!-- .element class="fragment" -->
 
-- $r<0$ signifies a positive linear relationship.<!-- .element class="fragment" -->
-- $r>0$ signifies a negative linear relationship<!-- .element class="fragment" -->
+- $r>0$ signifies a positive linear relationship.<!-- .element class="fragment" -->
+- $r<0$ signifies a negative linear relationship<!-- .element class="fragment" -->
 - $r=0$ : no linear relationship<!-- .element class="fragment" -->
 
 strength "rule of thumb": weak: 0.2 - 0.4 | moderate: 0.4 - 0.6 | strong: 0.6 - 0.8 <!-- .element class="fragment" -->
@@ -173,4 +173,4 @@ pwcorr income school, sig
 
 - Calculate and interpret the correlation coefficient for all pairs of metric/continuous variables in your analysis. 
     - If you only have one metric/continuous variable in your analysis so far, find another on, that might be related to your dependent variable, or use one of the example variables.
-- Is there a linear association between respondent's age and the age of their partner? (1) Identify and recode the relevant variables. (2) Plot the relationship between both variables. (3) Calculate and interpret the regression coefficient. (4) Interpret the number of observations the correlation coefficient is based on. 
+- Is there a linear association between respondent's age and the age of their partner? (1) Identify and recode the relevant variables. (2) Plot the relationship between both variables. (3) Calculate and interpret the correlation coefficient. (4) Interpret the number of observations the correlation coefficient is based on. 
